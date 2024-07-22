@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+    color: white;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(252, 17, 17)!important;
+}
+#navbarSupportedContent a{
+    color:white;
+    padding-right:10px;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid red;
+}
+#navbarSupportedContent button{
+    background-color: red;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME */
+#home{
+    background: url(./ima/bg.jpg);
+    /* opacity: .5; */
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 8px;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc,
+                 0px 8px 0px #ccc;
+}
+#home p{
+    
+    font-size: 15px;
+    color: white;
+}
+#home .input-group{
+    width:40%;
+    height:45px;
+}
+.signin{
+    background-color:rgb(19, 233, 19)!important;
+    color: white !important;
+    
+    
+}
+
+/* ABOUT */
+#about{
+    background-color: rgb(160, 19, 49);
+}
+#about h1{
+    font-size: 50px;
+    font-weight: 900px;
+    /* font-style:italic; */
+    color:white;
+}
+#about p{
+    color: white;
+}
+
+/* products */
+#product{
+    background-color: beige;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width:250px;
+    height:300px;
+    background-color: aliceblue;
+    border:none !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin:20px 60px;
+}
+.card:hover{
+    background-color: rgb(197, 226, 32);
+}
+.signin:hover{
+    background-color:rgb(12, 14, 12)!important;
+    color: white !important;
+}
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+    background-color: rgb(112, 122, 131);
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+
+}
+#contact text{
+    margin: 10px 0px;
+
+}
+#contact{
+    background-color: rgb(206, 109, 45);
+}
+
